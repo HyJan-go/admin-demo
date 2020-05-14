@@ -1,0 +1,20 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+spring:
+  boot:
+    admin:
+      client:
+        username: david
+        password: 123456
+        instance:
+          metadata:
+            user:
+              name: david
+              password: 123456
+  security:
+    user:
+      name: david
+      password: 123456
